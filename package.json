@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "pinia": "^2.0.23",
+    "pinia-orm": "^1.0.4",
     "vue": "^3.2.41"
   },
   "devDependencies": {

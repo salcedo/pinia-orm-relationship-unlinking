@@ -1,5 +1,7 @@
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import App from './App.vue'
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import { createORM } from "pinia-orm";
 
-createApp(App).use(createPinia()).mount('#app')
+import App from "./App.vue";
+
+createApp(App).use(createPinia().use(createORM())).mount("#app");
